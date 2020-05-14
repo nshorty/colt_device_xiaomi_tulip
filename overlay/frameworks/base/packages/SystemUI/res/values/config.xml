@@ -22,4 +22,10 @@
 <resources>
     <!-- Should "4G" be shown instead of "LTE" when the network is NETWORK_TYPE_LTE? -->
     <bool name="config_show4GForLTE">true</bool>
+
+    <!-- Rounded corner padding for Notch view -->
+    <dimen name="rounded_corner_content_padding">7dp</dimen>
+
+    <!-- Margin on the right side of the system icon group on Keyguard. -->
+    <dimen name="system_icons_keyguard_padding_end">5dp</dimen>
 </resources>
