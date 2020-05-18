@@ -35,6 +35,9 @@ PRODUCT_MANUFACTURER := Xiaomi
 PRODUCT_NAME := colt_tulip
 PRODUCT_MODEL := Redmi Note 6 Pro
 
+# Maintainer
+COLT_DEVICE_MAINTAINER := nshorty
+
 PRODUCT_GMS_CLIENTID_BASE := android-xiaomi
 
 TARGET_VENDOR_PRODUCT_NAME := tulip
