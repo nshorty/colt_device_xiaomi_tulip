@@ -46,9 +46,6 @@ BOARD_VENDORIMAGE_PARTITION_SIZE := 2147483648
 # Platform
 BOARD_VENDOR_PLATFORM := xiaomi-sdm660
 
-# Recovery
-TARGET_RECOVERY_FSTAB := $(DEVICE_PATH)/rootdir/etc/fstab.qcom
-
 # Security patch level
 VENDOR_SECURITY_PATCH := 2018-11-01
 
