@@ -1,5 +1,8 @@
-# Audio Power Amplifier
+# Audio Firmware
+vendor/firmware/dbmd4_va_fw.bin
 vendor/firmware/tas2557_uCDSP.bin
+vendor/firmware/tfa98xx.cnt
+vendor/firmware/voice_amodel.bin
 
 # Audio ACDB
 vendor/etc/acdbdata/MTP/MTP_Bluetooth_cal.acdb
@@ -599,6 +602,7 @@ vendor/lib/libMiWatermark.so|fe09202b8283cd88f86e96a5ef52b4db94b7ade5
 vendor/lib/libft2vendor.so|1332ed2141660b9372c959ca1155575c25a73751
 
 # Consumerir
+vendor/lib/hw/consumerir.default.so:vendor/lib/hw/consumerir.sdm660.so
 vendor/lib64/hw/consumerir.default.so:vendor/lib64/hw/consumerir.sdm660.so
 
 # Fingerprint firmware
@@ -654,11 +658,12 @@ vendor/lib64/hw/keystore.sdm660.so
 # Sensors
 vendor/etc/sensors/sensor_def_qcomdev.conf
 
-# Thermal
+# Thermal (Configs)
+vendor/etc/thermal-engine-battery.conf
+vendor/etc/thermal-engine-battery2.conf
+vendor/etc/thermal-engine-gameing.conf
+vendor/etc/thermal-engine-performance.conf
+vendor/etc/thermal-engine-map.conf
+vendor/etc/thermal-engine-default.conf
 vendor/etc/thermal-engine.conf
--vendor/lib/libthermalclient.so
--vendor/lib64/libthermalclient.so
-vendor/lib64/libthermalioctl.so
-vendor/lib64/libthermalfeature.so
-
 
