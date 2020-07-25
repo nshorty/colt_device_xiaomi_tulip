@@ -17,7 +17,7 @@
 
 set -e
 
-export DEVICE=twolip
+export DEVICE=tulip
 export VENDOR=xiaomi
 export DEVICE_BRINGUP_YEAR=2019
 export DEVICE_COMMON=sdm660-common
