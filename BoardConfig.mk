@@ -34,6 +34,9 @@ TARGET_OTA_ASSERT_DEVICE := tulip,twolip
 TARGET_SCREEN_HEIGHT := 2160
 TARGET_SCREEN_WIDTH := 1080
 
+# DT2W
+TARGET_TAP_TO_WAKE_NODE := "/sys/touchpanel/double_tap"
+
 # Kernel
 TARGET_KERNEL_CONFIG := tulip_defconfig
 TARGET_KERNEL_SOURCE := kernel/xiaomi/sdm660
