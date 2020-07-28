@@ -54,7 +54,7 @@ BOARD_VENDORIMAGE_PARTITION_SIZE := 2147483648
 BOARD_VENDOR_PLATFORM := xiaomi-sdm660
 
 # Security patch level
-VENDOR_SECURITY_PATCH := 2018-11-01
+VENDOR_SECURITY_PATCH := 2020-04-05
 
 # Inherit the proprietary files
 -include vendor/xiaomi/tulip/BoardConfigVendor.mk
