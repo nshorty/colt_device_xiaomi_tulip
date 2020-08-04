@@ -14,9 +14,9 @@
 # limitations under the License.
 
 PRODUCT_MAKEFILES := \
-    $(LOCAL_DIR)/aosp_tulip.mk
+    $(LOCAL_DIR)/colt_tulip.mk
 
 COMMON_LUNCH_CHOICES := \
-   aosp_tulip-user \
-   aosp_tulip-userdebug \
-   aosp_tulip-eng
+   colt_tulip-user \
+   colt_tulip-userdebug \
+   colt_tulip-eng
